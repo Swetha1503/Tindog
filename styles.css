@@ -1,0 +1,232 @@
+
+
+body{text-align: center;}
+
+/* headings */
+
+.big-heading {
+   font-family: "Montserrat";
+   font-size: 3rem;
+   font-weight: 900;
+   line-height: 1.5;
+   margin-top: 30px;
+}
+
+h2,h3 {
+   font-family: "Montserrat";
+}
+
+.container-fluid {
+   padding: 7% 15% ;
+}
+
+/* sections */
+
+.colored-section{
+   background-color: #ff4c68;
+   color: #fff;
+}
+
+.white-section{
+   background-color: #fff;
+}
+
+/* navigation-bar */
+
+.navbar {
+   padding: 0 0 2;
+}
+
+.navbar-collapse {
+   padding-bottom: 4rem;
+}
+
+.nav-item {
+   padding: 0px 18px 0 18px;
+}
+
+.nav-link {
+   font-weight: 100;
+   font-size: 1.2rem;
+}
+
+.navbar-brand {
+   font-family: "Ubuntu";
+}
+
+/* icons */
+.fa {
+   margin-right: 5px;
+}
+
+.fa-brands {
+   margin-right: 5px;
+}
+
+
+.icon {
+   color: #ef8172;
+   padding-bottom: 1rem;
+}
+
+.icon:hover {
+   color: #ff4c68;
+}
+
+/* title-section */
+
+#title {
+   text-align: left;
+}
+
+#title .container-fluid{
+   padding-top:3% ;
+}
+
+
+.iphone {
+   transform: rotate(25deg);
+   width: 20%;
+   position: absolute;
+   right: 20%;
+}
+
+/* features */
+
+.feature-box {
+   padding: 3%;
+   font-weight: 100;
+}
+
+#features {
+   background-color: #fff;
+   position: relative;
+
+}
+
+p {
+   color: #8f8f8f;
+   font-weight: 400;
+   font-size: small;
+}
+
+
+
+/* testimonials */
+
+#testimonials{ 
+   background-color: #ef8172;
+}
+
+.testimonial-text{
+   font-size: 2.5rem;
+   line-height: 3rem;
+}
+
+.testimonial-image {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+
+.dog {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+
+/* press */
+
+#press {
+   background-color:#ef8172;
+   padding: 30px;
+}
+
+.press-logo {
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+   padding: 100px;
+}
+
+.pricing-line {
+   font-size: 2.5rem;
+   line-height: 3.5rem;
+}
+
+/* all buttons */
+
+.download-button {
+   margin: 5% 3% 5% 0;
+}
+
+.price-btn {
+   width: 100%;
+}
+
+ 
+/* cards */
+
+.card {
+   padding: 3% 2%;
+   margin-right: 30px;
+}
+
+/* responsive */
+
+@media(max-width:992px) {
+   .iphone {
+      position: static;
+      transform: rotate(0);
+      width: 50%;
+   }
+
+   #title {
+      text-align: center;
+   }
+
+   #testimonials {
+      font-size: 100%;
+   }
+
+   .testimonial-image {
+      width: 20%;
+   }
+
+   .dog {
+      width: 20%;
+   }
+
+   .press-logo {
+      width: 20%;
+      margin: 10px 5px 25px 5px;
+   }
+
+   .card {
+      margin-bottom: 10px;
+      border-radius: 8px;
+   }
+}
+
+/* call-to-action (cta) */
+
+.cta-line {
+   font-size: 2.5rem;
+   line-height: 3.5rem;
+}
+
+
+/* footer */
+
+#footer .container-fluid{
+   padding:3% 15% 3% 15%;
+}
+
+.social-icon {
+   margin: 10px 10px;
+}
+
